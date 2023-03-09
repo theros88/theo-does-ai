@@ -12,3 +12,5 @@ Then, a U-Net CNN model is used based on a Resnet34 architecture, which is train
 
 ## Results and further development
 After this attempt, it bacame obvious that there was an improvement in the accuracy from the baseline of ~1.5x, but in the private 50% of the test set only a marginal 1.042x was gained (private score inference:0.34321 vs baseline's: 0.32931), which is deemed insignificant. An ensemble of models could be further used to improve this accuracy, but the main issue is the down-sizing of the high-resolution medical images to 512x512 used for training. Above this resolution, it was impractical/unfeasible to train the model in a reasonable amount of time. Apparently, the loss of signal in the process of down-sizing and training is considerable and an alternative technique should be used (e.g. tiling of the original images and train the model(s) with the tiles) in order to achieve decent accuracy of the model used. 
+
+An example of a math formula: $$x^3+25x^2+2$$
