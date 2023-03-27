@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-# An ode to the internal functionality of SegFormer :joy:
+An ode composed to glorify the internal functionality of SegFormer. Written by the renowned artist hidden in [chatPDF](https://www.chatpdf.com/) :joy:  
 
     In the heart of SegFormer lies a wondrous design,  
     A framework that's efficient, robust, and fine.  
